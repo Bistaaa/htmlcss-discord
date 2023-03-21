@@ -2,7 +2,7 @@
 /* General rules */
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 
@@ -13,7 +13,7 @@ header{
     background-size: cover;
     color: white;
     padding-top: 20px;
-    padding-bottom: 150px;
+    padding-bottom: 160px;
 }
 
 
@@ -46,39 +46,54 @@ nav{
     font-size: 13px;
 }
 
+
+
 /* Descrizione */
 
-.descrizione{
-    height: 200px;
-    margin: 150px 25% 0 25%;
-    background-color:cornflowerblue; 
+.incipit{
+    min-height: 150px;
+    margin: 160px 25% 0 25%; 
 }
+
+#titolo{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#descrizione{
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+
+/* Jumbotron */
 
 .jumbotron{
     display: flex;
-    height: 50px;
-    margin: 20px 33% 0 33%;
-    background-color: blueviolet;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .button{
     align-items: center;
     background-color: white;
     margin: 5px 0;
+    padding: 12px 17px;
     border-radius: 20px;
 }
 
 #scarica{
-    width: 35%;
-    height: 40px;
+    color: black;
+    margin: 0 10px;
 }
 
 #apri{
-    width: 55%;
-    height: 40px;
-    background-color:slategray
+    background-color:rgba(35,39,42,255);
+    margin: 0 10px;
 }
 
 
@@ -134,9 +149,9 @@ div > h2{
     background-color: brown;
 }
 
-div > p{
+.more-feature > p{
     min-width: 80%;
-    height: 50px;
+    height: 45px;
     background-color: brown;
 }
 
