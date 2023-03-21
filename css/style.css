@@ -99,7 +99,11 @@ nav{
 
 
 
+
 /* Main */
+
+
+/* Generali */
 
 .contenitore-bianco{
     background-color: white;
@@ -115,24 +119,67 @@ nav{
 
 .feature{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color:bisque;
+    align-items: flex-start;
+    justify-content: center;
     height: 400px;
-    margin: 0 15%;
+    margin: 0 13% 0 13%;
 }
 
 .image{
     width: 55%;
-    height: 90%;
-    background-color: brown;
+    height: 100%;
 }
 
 .info{
-    width: 35%;
+    width: 30%;
     min-height: 70%;
-    background-color: brown;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.vantaggi-titolo{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.vantaggi-descrizione{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+
+/* Un luogo a invito */
+
+#image-1{
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Dove trovarsi è facile */
+
+#image-2{
+    background-image: url(../img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+
+
+/* Da pochi a un fandom */
+
+#image-3{
+    background-image: url(../img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Tecnologia affidabile */
 
 .more-feature{
     display: flex;
