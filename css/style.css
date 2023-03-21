@@ -112,7 +112,7 @@ nav{
 }
 
 .contenitore-grigio{
-    background-color: gray;
+    background-color: rgba(246,246,246,255);
     min-height: 400px;
     padding: 100px 0;
 }
@@ -185,39 +185,47 @@ nav{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: orange;
-    margin: 0 15% 100px;
-
+    margin: 0 10% 100px;
 }
 
-div > h2{
-    min-width: 80%;
-    height: 70px;
-    background-color: brown;
+#call-photo{
+    background-image: url(../img/item4-big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 400px;
 }
 
-.more-feature > p{
-    min-width: 80%;
-    height: 45px;
-    background-color: brown;
+#call-description{
+    margin: 0 10%;
+    width: 70%;
+    text-align: center;
+    margin: 0 10px;
 }
+
+
 
 div > #call-photo{
     width: 95%;
-    height: 400px;
-    background-color: brown;
+    min-height: 400px;
     margin: 50px 0;
 }
 
-div > h3{
-    min-width: 60%;
-    height: 50px;
-    background-color: brown;
+#stelline{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 37%;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0 30px 0;
+    margin-bottom: 30px;
+
 }
 
 #download{
     background-color: rgba(114,137,218,255);
-    margin: 30px 0;
-    height: 30px;
-    width: 15%;
+    color: white;
+    margin: 0 10px;
 }
