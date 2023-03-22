@@ -192,8 +192,7 @@ nav{
     background-image: url(../img/item4-big.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    min-height: 400px;
+    height: 800px;
 }
 
 #call-description{
@@ -228,4 +227,71 @@ div > #call-photo{
     background-color: rgba(114,137,218,255);
     color: white;
     margin: 0 10px;
+}
+
+
+/* footer */
+
+/* link */
+
+footer{
+    background-color: rgba(35,39,42,255);
+    padding: 50px 8% 100px;
+}
+
+.hfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+    padding: 50px 80px;
+}
+
+#posto-per-parlare{
+    width: 12%;
+}
+
+h1{
+    color: rgba(114,137,218,255);  
+}
+
+.loghi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.footer-title{
+    color: rgba(114,137,218,255);
+}
+
+#bandiera{
+    height: 20px;
+}
+
+hr{
+    border: 1px solid rgba(114,137,218,255);
+}
+
+
+/* Logo + Registrati */
+
+.bfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#registrati{
+    color: white;
+    background-color: rgba(114,137,218,255);
 }
